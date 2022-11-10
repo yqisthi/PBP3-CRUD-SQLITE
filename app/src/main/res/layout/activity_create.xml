@@ -23,6 +23,8 @@
         android:layout_below="@id/titleNoRuangan"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:padding="8dp"
+        android:background="@drawable/border"
         android:inputType="text" />
 
     <TextView
@@ -43,6 +45,8 @@
         android:layout_below="@+id/titleRuangan"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:padding="8dp"
+        android:background="@drawable/border"
         android:inputType="text" />
 
     <Button
@@ -53,6 +57,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
+        android:backgroundTint="@color/pink_muda"
         android:text="@string/simpan" />
 
 </RelativeLayout>

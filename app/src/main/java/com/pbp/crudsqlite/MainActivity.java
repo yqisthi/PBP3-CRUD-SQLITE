@@ -46,9 +46,13 @@ public class MainActivity extends AppCompatActivity {
         cursor = db.rawQuery("SELECT * FROM ruangan", null);
         daftar = new String[cursor.getCount()];
         cursor.moveToFirst();
-        for (int i = 0; i < cursor.getCount(); i++) {
+        for (int i = 0; i < cursor.getCount(); i=i+1) {
             cursor.moveToPosition(i);
             daftar[i] = cursor.getString(0).toString();
+//            daftar[i+1] = cursor.getString(1).toString();
+
+
+
         }
 
         listView = findViewById(R.id.listView);
